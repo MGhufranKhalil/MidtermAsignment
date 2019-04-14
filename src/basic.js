@@ -8,15 +8,18 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
-
+import Header from './Header';
+import Footer from './Footer';
  
-export default class Basic extends Component {
+export default class App extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to React Native!</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Text style={styles.instructions}> </Text>
+      <View  >
+        <Header/>
+            <Text style={{fontSize:20,fontWeight:"600",marginTop:60}}>Expereince</Text>
+            <Text style={{fontSize:18}}> - Software Engineer </Text>
+            <Text style={{fontSize:18}}>at octraves technology</Text>
+        <Footer/>
       </View>
     );
   }
