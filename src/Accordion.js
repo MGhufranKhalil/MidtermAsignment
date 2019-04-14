@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import { Container, Header, Content, Icon, Accordion, Text, View } from "native-base";
 const dataArray = [
-  { title: "First Element", content: "Lorem ipsum dolor sit amet" },
-  { title: "Second Element", content: "Lorem ipsum dolor sit amet" },
-  { title: "Third Element", content: "Lorem ipsum dolor sit amet" }
+  { title: "Expereince", content: "Software Engineer at Ocraves Technology" },
+  { title: "Education", content: "MCS student at MAJU " },
 ];
 
 export default class AccordionCustomHeaderContent extends Component {

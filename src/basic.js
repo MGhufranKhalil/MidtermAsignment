@@ -20,7 +20,9 @@ export default class App extends Component {
             <Text style={{fontSize:20,fontWeight:"600",marginTop:60}}>Expereince</Text>
             <Text style={{fontSize:18}}> - Software Engineer </Text>
             <Text style={{fontSize:18}}>at octraves technology</Text>
-            <Accordion></Accordion>
+            <Accordion>  </Accordion>
+
+          
         <Footer/>
       </View>
     );
