@@ -10,6 +10,7 @@ import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 import Header from './Header';
 import Footer from './Footer';
+import Accordion from './Accordion';
  
 export default class App extends Component {
   render() {
@@ -19,6 +20,7 @@ export default class App extends Component {
             <Text style={{fontSize:20,fontWeight:"600",marginTop:60}}>Expereince</Text>
             <Text style={{fontSize:18}}> - Software Engineer </Text>
             <Text style={{fontSize:18}}>at octraves technology</Text>
+            <Accordion></Accordion>
         <Footer/>
       </View>
     );
